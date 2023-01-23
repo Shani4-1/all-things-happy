@@ -1,0 +1,78 @@
+header {
+    text-align: center;
+    text-decoration: solid;
+    font-family: fantasy;
+    height: 500px;
+    /* background-image: linear-gradient(to top, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);  */
+
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+}
+#main-section {
+    display: grid;
+    align-items: ;
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+    /* background-image: linear-gradient(to top, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);  */
+}
+body {
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+    /* background-image: linear-gradient(to top, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);  */
+
+    /* background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%); */
+}
+#main-heading {
+    font-size: 80px;
+}
+#main-heading font {
+    font-size: 50px;
+}
+
+h1 {
+    position: static;
+    
+    padding-top: 30px;
+}
+#subheading-one{ 
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    animation: text 5s;
+}
+#subheading-two {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    animation: text 5s;
+}
+font {
+    animation: text 5s infinite;
+}
+#happy-sad-gif {
+    padding-top: 300px;
+    padding-left: 50px;
+  
+}
+#nice-vibez-only {
+   
+   padding-top: 300px;
+   padding-left: 1400px;
+ 
+}
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40;
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+    
+}

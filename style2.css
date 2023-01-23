@@ -1,0 +1,9 @@
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+.about-me-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
