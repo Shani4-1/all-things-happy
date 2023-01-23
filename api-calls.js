@@ -24,3 +24,4 @@ async function getapi(api_url){
         })
         .catch(err => console.error(err));
 }
+getapi(api_url)
